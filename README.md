@@ -1,5 +1,9 @@
 This is a backport the default skin for the various Scratch Wikis to MediaWiki 1.26 on PHP 5.3.
 
+<p align="center">
+  <img src='./readmeimg/WikiLipsum.png'>
+</p>
+
 ## Installation
 1. Download the contents of this repository and save them into $wgScriptPath/skins/ScratchWikiSkin2 (a new directory)
 2. Add the following line to LocalSettings.php:
