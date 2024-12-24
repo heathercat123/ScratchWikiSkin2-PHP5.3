@@ -15,8 +15,8 @@
 		"ScratchWikiSkinHooks": "ScratchWikiSkin.hooks.php"
 	},
 	"Hooks": {
-		"GetPreferences": "main",
-		"OutputPageBodyAttributes": "main"
+		"GetPreferences": "ScratchWikiSkinHooks::onGetPreferences",
+		"OutputPageBodyAttributes": "ScratchWikiSkinHooks::onOutputPageBodyAttributes"
 	},
 	"HookHandlers": {
 		"main": {
@@ -29,20 +29,6 @@
 	},
 	"ResourceModules": {
 		"skins.scratchwikiskin2": {
-			"class": "MediaWiki\\ResourceLoader\\SkinModule",
-			"features": {
-				"content-links": true,
-				"content-media": true,
-				"interface-message-box": true,
-				"interface-category": true,
-				"content-tables": true,
-				"i18n-ordered-lists": true,
-				"i18n-all-lists-margins": true,
-				"i18n-headings": true,
-				"elements": true,
-				"interface": true,
-				"logo": true
-			},
 			"position": "top",
 			"styles": {
 				"resources/css/main.css": {
@@ -84,8 +70,5 @@
 			"value": false
 		}
 	},
-	"manifest_version": 2,
-	"requires": {
-		"MediaWiki": ">= 1.35.0"
-	}
+	"manifest_version": 1
 }
