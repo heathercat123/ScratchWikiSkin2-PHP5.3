@@ -15,7 +15,6 @@ class ScratchWikiSkinTemplate extends BaseTemplate {
 		global $wgRightsPage, $wgRightsUrl, $wgRightsIcon, $wgRightsText, $wgLang, $wgSWS2JoinBox, $wgUser;
 		$user = RequestContext::getMain()->getUser();
 		$this->html('headelement');
-		$userOptionsLookup = $wgUser;
 		$colorPref = $wgUser->getOption( 'scratchwikiskin-header-color' );
 		$darkPref = $wgUser->getOption( DARK_THEME_PREF );
 		?>
