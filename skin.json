@@ -1,7 +1,7 @@
 {
 	"name": "ScratchWikiSkin",
 	"author": "Original skin by JSO. Rewrite to update style and registration by Kenny2scratch. Backported to MediaWiki 1.25 by Heathercat123. Contributions to the original skin made from jvvg, blob8108, scmb1, -PRO-,",
-	"url": "https://github.com/InternationalScratchWiki/ScratchWikiSkin2",
+	"url": "https://github.com/heathercat123/ScratchWikiSkin2-PHP5.3",
 	"descriptionmsg": "scratchwikiskin-desc",
 	"namemsg": "skinname-scratchwikiskin2",
 	"license-name": "MIT",
