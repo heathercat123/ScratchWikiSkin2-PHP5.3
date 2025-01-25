@@ -1,4 +1,4 @@
-This is a backport the default skin for the various Scratch Wikis to older MediaWiki versions. It was only officially tested on MediaWiki 1.26.4 on PHP 5.3.8, but it should work on MediaWiki 1.25+ on PHP 5.3.3+.
+This is a backport the default skin for the various Scratch Wikis to older MediaWiki versions. It was only officially tested on MediaWiki 1.26.4 and PHP 5.3.8, but it should work on MediaWiki 1.25+ and PHP 5.3.3+.
 
 <p align="center">
   <img src='./readmeimg/WikiLipsum.png'>
